@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: 'Courier New', monospace;
+  overflow: hidden;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #00ff00;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 30px #00ff00;
+  animation: fadeIn 2s ease-in-out;
+  max-width: 600px;
+  color: #00ff00;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  animation: glow 2s infinite alternate;
+}
+
+.coders {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc;
+  margin: 10px 0;
+}
+
+.emoji {
+  font-size: 24px;
+  animat…
